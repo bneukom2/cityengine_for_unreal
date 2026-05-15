@@ -28,12 +28,12 @@
 #include "HAL/ThreadSafeCounter.h"
 #include "HAL/ThreadSafeBool.h"
 #include "Modules/ModuleManager.h"
+#include "UObject/GCObject.h"
 
 #include "UnrealLogHandler.h"
 #include "VitruvioTypes.h"
 
 #include <memory>
-#include <string>
 
 DECLARE_LOG_CATEGORY_EXTERN(LogUnrealPrt, Log, All);
 
