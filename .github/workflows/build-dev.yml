@@ -7,11 +7,6 @@ on:
       - main
       - develop
 
-  pull_request:
-    branches:
-      - main
-      - develop
-
 jobs:
   package-host:
     name: Package host project (ce4ue lane)
