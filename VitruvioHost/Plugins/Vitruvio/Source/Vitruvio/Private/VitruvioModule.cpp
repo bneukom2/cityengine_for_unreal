@@ -375,6 +375,7 @@ void VitruvioModule::ShutdownModule()
 
 	UE_LOG(LogUnrealPrt, Display, TEXT("PRT calls finished. Shutting down."))
 	UE_LOG(LogUnrealPrt, Display, TEXT("Test"))
+	UE_LOG(LogUnrealPrt, Display, TEXT("Test 2"))
 	
 	if (PrtDllHandle)
 	{
