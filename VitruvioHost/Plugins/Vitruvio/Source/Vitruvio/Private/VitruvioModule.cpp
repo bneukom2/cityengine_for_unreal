@@ -374,7 +374,8 @@ void VitruvioModule::ShutdownModule()
 		0); // Yield to other threads
 
 	UE_LOG(LogUnrealPrt, Display, TEXT("PRT calls finished. Shutting down."))
-
+	UE_LOG(LogUnrealPrt, Display, TEXT("Test"))
+	
 	if (PrtDllHandle)
 	{
 		FPlatformProcess::FreeDllHandle(PrtDllHandle);
